@@ -1,0 +1,73 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;                                 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color:white; 
+}
+
+main { 
+    width: 1000px;
+    display: flex;
+    justify-content: center;   
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 10px;
+    width: 200px;
+    margin: auto 20px;
+}
+
+.profile p {
+    color: gray;
+    font-size: large;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.profile:hover img {
+    border: 3px solid white;
+}
+
+.profile:hover p {
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: 0.5px solid white;
+    height: 40px;
+    width: 150px ;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
